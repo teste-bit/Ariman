@@ -1,17 +1,16 @@
-import java.util.Locale;
+import java.util.Scanner;
 
 public class Main{
 	public static void main(String[] args) {
+		Scanner r = new Scanner(System.in);
 		
 		
-		int x=20;
+		System.out.println("ola, estou funcionando");
 		
-		qqmerda bosta = new qqmerda();
 		
-		bosta.a=x;
 		
-		int y=bosta.a;
-		System.out.println(y);	
+		r.close();
+		
 		
 	}
 	
